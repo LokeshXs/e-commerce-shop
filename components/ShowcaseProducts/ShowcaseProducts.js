@@ -1,12 +1,12 @@
 import React from 'react'
 import ProductCard from './ProductCard'
 
-const FeaturedProducts = () => {
+const ShowcaseProducts = ({title,description}) => {
   return (
     <section className=' mt-28 px-24 max-lg:px-16 max-sm:px-6'>
       <div className='flex justify-between items-center gap-8 max-md:gap-4 max-lg:flex-col '>
-      <h2 className='text-4xl font-semibold max-md:text-3xl'>Featured Products</h2>
-      <p className=' max-w-[600px] max-xl:max-w-[420px] max-lg:max-w-[90%] max-lg:text-center max-sm:max-w-full'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia explicabo ea impedit sequi debitis maiores cum nisi ipsum quas sunt.</p>
+      <h2 className='text-4xl font-semibold max-md:text-3xl'>{title}</h2>
+      <p className=' max-w-[600px] max-xl:max-w-[420px] max-lg:max-w-[90%] max-lg:text-center max-sm:max-w-full'>{description}</p>
       </div>
 
       <div className=' mt-16 max-md:mt-10 flex justify-center gap-12 max-lg:flex-col max-lg:gap-16 '>
@@ -24,4 +24,4 @@ const FeaturedProducts = () => {
   )
 }
 
-export default FeaturedProducts
+export default ShowcaseProducts

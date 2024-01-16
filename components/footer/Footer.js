@@ -49,7 +49,7 @@ const CATEGORIES = [
 
 const Footer = () => {
   return (
-    <footer className=" w-full  py-4 px-20 max-xl:px-12 max-sm:px-4 max-sm:py-2">
+    <footer className=" w-full  py-4 px-20 max-xl:px-12 max-sm:px-4 max-sm:py-4">
       <div className="flex justify-between mb-4 gap-32 max-md:flex-col max-md:gap-8">
       <div className="flex gap-24 max-md:gap-16 ">
         <div>
