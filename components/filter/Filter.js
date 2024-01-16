@@ -10,7 +10,7 @@ const FilterPanel = () => {
   return (
     <>
       <div
-        className="max-sm:fixed hidden max-sm:top-[128px] z-10 p-2 bg-white shadow-md rounded-xl cursor-pointer"
+        className="max-sm:fixed max-sm:block hidden max-sm:top-[128px] z-10 p-2 bg-white shadow-md rounded-xl cursor-pointer"
         onClick={() => setFilterOpen(true)}
       >
         <Filter />
